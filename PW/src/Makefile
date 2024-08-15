@@ -7,7 +7,7 @@ MODFLAGS= $(BASEMOD_FLAGS) \
           $(MOD_FLAG)../../dft-d3/
 
 PWOBJS = \
-pwscf.o 
+pwscf.o \
 
 PWLIBS = \
 a2fmod.o \
@@ -268,7 +268,14 @@ oscdft_occupations.o \
 oscdft_wfcO.o \
 oscdft_forces.o \
 oscdft_forces_subs.o \
-d3hess_mod.o
+d3hess_mod.o \
+tabd.o \
+qedark.o \
+qedark_routines.o \
+qedark_f2.o \
+qedark_multimass.o \
+qedark_f2_3d.o \
+qedark_read_input.o
 
 
 # GPU versions of routines

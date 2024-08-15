@@ -94,6 +94,7 @@ PROGRAM pwscf
      !
   ENDIF
   !
+  CALL qedark()
   CALL laxlib_end()
   CALL stop_run( exit_status )
   CALL do_stop( exit_status )
